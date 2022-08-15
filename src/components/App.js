@@ -9,8 +9,8 @@ import '../index.css';
 function App() {
    return (
       <>
-         <Header></Header>
-         <Main></Main>
+         <Header />
+         <Main sessionL={25}></Main>
       </>
    )
 }
