@@ -1,5 +1,5 @@
 import Header from "./header"
-import Main from "./main.js"
+
 
 import React from "react";
 import ReactDOM from 'react-dom/client';
@@ -10,7 +10,7 @@ function App() {
    return (
       <>
          <Header />
-         <Main sessionL={25}></Main>
+         
       </>
    )
 }
